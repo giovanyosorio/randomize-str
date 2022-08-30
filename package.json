@@ -1,0 +1,28 @@
+{
+  "name": "randomize-str",
+  "version": "1.0.0",
+  "description": "random string messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanyosorio/randomize-str.git"
+  },
+  "keywords": [],
+  "author": "GO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giovanyosorio/randomize-str/issues"
+  },
+  "homepage": "https://github.com/giovanyosorio/randomize-str#readme",
+  "bin": {
+    "randomize-str": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "user": "^0.0.0"
+  }
+}
